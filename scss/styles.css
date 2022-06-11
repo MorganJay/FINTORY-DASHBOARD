@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  height: 100vh;
+  min-width: 10rem;
+  background-color: #0a150f;
+  position: fixed;
+  color: #fff;
+  padding: 3rem 1.5rem;
+}
+
+.sidebar .wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.sidebar .wrapper .logo {
+  display: flex;
+  align-items: center;
+  font-size: 2.6rem;
+  opacity: 0.7;
+  margin-left: 0.5rem;
+}
+
+.sidebar .wrapper .logo span {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.sidebar .wrapper .main-menu ul {
+  margin-top: 2rem;
+}
+
+.sidebar .wrapper .main-menu li {
+  margin-bottom: 0.4rem;
+}
+
+.sidebar .wrapper .main-menu li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 0.8rem 1rem;
+}
+
+.sidebar .wrapper .main-menu li a:hover {
+  background-color: #97f676;
+  color: black;
+}
+
+.sidebar .wrapper .main-menu li a span {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-left: 1rem;
+}
